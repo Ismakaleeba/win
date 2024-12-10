@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to the WIN Hackathon 2024. Join us to innovate, create, and make history.">
+  <title>WIN Hackathon 2024</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" sizes="16x16" type="image/x-icon">
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Roboto&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      color: #333;
+    }
+
+    /* Header Section */
+    .page-header {
+      background: linear-gradient(to right, #2b6cb0, #38a169);
+      color: white;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+    }
+
+    /* Hero Section */
+    #hero {
+      background: url('1_mNNJdFK1WF-Rqvexg7R3Vw.jpg') no-repeat center center/cover;
+      height: 100vh;
+      color: white;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+    }
+
+    /* Buttons */
+    .btn-primary {
+      background-color: #38a169;
+      border-color: #38a169;
+    }
+    .btn-primary:hover {
+      background-color: #2b6cb0;
+      border-color: #2b6cb0;
+    }
+
+    /* Custom Colors */
+    .text-coat {
+      color: #2b6cb0;
+    }
+    .bg-coat {
+      background-color: #38a169;
+    }
+
+    /* Footer */
+    footer {
+      background: linear-gradient(to right, #38a169, #2b6cb0);
+      color: white;
+    }
+
+    /* Partners Marquee */
+    .partners-marquee {
+      overflow: hidden;
+      width: 100%;
+    }
+
+    .partner-logos {
+      display: flex;
+      gap: 50px;
+      animation: scroll-left 10s linear infinite;
+    }
+
+    .partner-logo {
+      width: 150px;
+      opacity: 0.8;
+      transition: opacity 0.3s;
+    }
+
+    .partner-logo:hover {
+      opacity: 1;
+    }
+
+    @keyframes scroll-left {
+      from {
+        transform: translateX(100%);
+      }
+      to {
+        transform: translateX(-100%);
+      }
+    }
+
+    /* Large Image Containers */
+    .large-image-container {
+      max-width: 400px;
+      margin: 0 auto 30px;
+    }
+
+    .large-image-container img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    /* Center the title */
+    .partners-title {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    /* Static logos on top of the partners */
+    .partner-logos-container {
+      position: relative;
+    }
+
+    .sva-logo, .sbf-logo {
+      position: absolute;
+      top: 0;
+      z-index: 10;
+      width: 150px;
+    }
+
+    .sva-logo {
+      left: 10%;
+    }
+
+    .sbf-logo {
+      right: 10%;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Page Header -->
+  <header class="page-header py-4">
+    <div class="container text-center">
+      <h1 class="display-4">Welcome to the WIN Hackathon 2024</h1>
+      <p class="lead">Join the innovation journey and become part of the future of tech.</p>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="d-flex align-items-center justify-content-center text-center">
+    <div>
+      <div class="mb-4 p-3 bg-white rounded shadow">
+        <img src="fffff-removebg-preview.png" alt="Logo" style="width: 150px;">
+      </div>
+      <h1>WIN Hackathon 2024</h1>
+      <h2>Friday, December 27</p>
+      <h2>Where ideas ignite, innovations take flight.</p>
+      <a href="https://forms.gle/FiGst3zsfp6pcy1W6" class="btn btn-primary btn-lg mt-4" target="_blank">Join the Innovation</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="container py-5">
+    <h2 class="text-center text-coat mb-4">About WIN Hackathon 2024</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <h4 class="text-coat">A Silicon Valley of Africa Initiative</h4>
+        <p class="text-justify">
+          <strong>Imagine a future</strong> where Kigali stands as a global hub for technological innovation, a beacon of ingenuity fueled by the talent of African youth. This is the vision of the <span class="text-coat">Silicon Valley of Africa (SVA)</span> initiative, a student-led movement founded by high school student <strong>Ismael Kaleeba</strong>.
+        </p>
+        <p class="text-justify">
+          SVA is committed to empowering African youths with the skills to develop cutting-edge technologies, create homegrown solutions for local challenges, and compete in the global tech marketplace. By leveraging Kigali’s rapid growth, supportive government policies, and entrepreneurial spirit, SVA aims to transform the city into a center for technological excellence and innovation.
+        </p>
+        <p class="text-justify">
+          The initiative serves as a launchpad for young innovators, providing them with mentorship, resources, and opportunities to advance the practical application of emerging technologies. From robotics competitions to hands-on STEM education, SVA is crafting the leaders and innovators who will shape Africa's future.
+        </p>
+      </div>
+      <div class="col-md-6">
+        <h4 class="text-coat">Empowering Street-Connected Youth</h4>
+        <p class="text-justify">
+          In collaboration with the <span class="text-coat">Street Bridge Foundation</span>, the WIN Hackathon bridges the digital divide by providing tools, training, and mentorship to underserved youth. These efforts are designed to unlock the potential of street-connected youth, equipping them with the confidence and skills to thrive in a technology-driven world.
+        </p>
+        <p class="text-justify">
+          By integrating these youth into the SVA ecosystem, the hackathon not only offers immediate opportunities but also connects them to a broader network of innovation and learning. This collaboration embodies SVA’s mission to ensure that no talent is left untapped and that every young mind has the opportunity to contribute to Africa’s technological renaissance.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Image Section Between About and Objectives -->
+  <section class="container py-5">
+    <div class="row">
+      <!-- First Image on the Left -->
+      <div class="col-md-6 mb-4">
+        <img src="insta-save.net_InstagramPost_the_street_bridge_3271104534635860871.heic" class="img-fluid rounded" alt="Street Bridge Image 1">
+      </div>
+
+      <!-- Second Image on the Right -->
+      <div class="col-md-6 mb-4">
+        <img src="insta-save.net_InstagramPost_the_street_bridge_3271104534635631601.heic" class="img-fluid rounded" alt="Street Bridge Image 2">
+      </div>
+    </div>
+  </section>
+
+  <!-- Objectives Section -->
+  <section id="objectives" class="container py-5">
+    <h2 class="text-center text-coat">Our Objectives</h2>
+    <div class="row mt-4">
+      <div class="col-md-6">
+        <ul class="list-group">
+          <li class="list-group-item">
+            <strong>Equip Street-Connected Youth with Practical Tech Skills:</strong> Provide hands-on training in coding, robotics, and other technology disciplines to create new pathways for personal and professional growth.
+          </li>
+          <li class="list-group-item">
+            <strong>Foster Creativity and Problem-Solving:</strong> Inspire active participation in interactive, tech-focused workshops that encourage innovative thinking and collaborative problem-solving.
+          </li>
+          <li class="list-group-item">
+            <strong>Introduce Foundational STEM Concepts:</strong> Spark curiosity by introducing youth to the basics of Science, Technology, Engineering, and Mathematics, laying a foundation for long-term interest in technology.
+          </li>
+          <li class="list-group-item">
+            <strong>Develop Confidence and Leadership:</strong> Empower underprivileged youth to realize their potential, build self-confidence, and develop essential leadership skills.
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <ul class="list-group">
+          <li class="list-group-item">
+            <strong>Introduce the WIN Hackathon Challenge:</strong> Develop two projects within the WIN Hackathon, showcasing the power of technology in solving real-world problems.
+          </li>
+          <li class="list-group-item">
+            <strong>Bridge the Digital Divide:</strong> Bring technology to underserved communities, closing the gap in access to digital tools and opportunities.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+        <!-- Call to Action Section -->
+        <section class="cta-section py-5" style="background-color: #f4f4f4;">
+          <div class="container text-center">
+            <h2 class="text-coat mb-4" style="font-size: 2.5rem; color: #38a169;">Join Us in Making a Lasting Impact</h2>
+            <p class="mb-4" style="font-size: 1.1rem; color: #555;">
+              We invite all stakeholders, partners, and sponsors to come together to make this event a huge success. 
+              Whether it be funding, mentorship, or resources – your contribution will be indispensable in the successful implementation of this initiative. 
+              Let us create lasting change by empowering street-connected youth with the means to be successful in creating change that is tangible for and to our society. 
+              Let's team up to make dreams come true and build a brighter future for these young minds.
+            </p>
+            <a href="https://forms.gle/FiGst3zsfp6pcy1W6" class="btn btn-primary btn-lg" style="padding: 12px 30px; font-size: 1.2rem; border-radius: 5px;">
+              Get Involved
+            </a>
+          </div>
+        </section>
+
+
+  <!-- Partners Section -->
+  <section id="partners" class="bg-light py-5">
+    <h2 class="partners-title text-coat">Our Partners</h2>
+    <div class="partners-marquee">
+      <div class="partner-logos-container">
+        <!-- Static SVA and SBF Logos Over the Partners -->
+        
+        
+        <div class="partner-logos">
+          <!-- Example Partner Logos -->
+          <img src="coderina-logo.png" alt="Coderina Edtech" class="partner-logo">
+          <img src="stem inspires.jfif" alt="Stem Inspires" class="partner-logo">
+          <img src="alu.png" alt="African Leadership University" class="partner-logo">
+          <img src="princeton.png" alt="Princeton University" class="partner-logo">
+          <img src="flat logic.png" alt="FlatLogic" class="partner-logo">
+          <img src="hack.png" alt="Hack Club" class="partner-logo">
+          <img src="somo.jfif" alt="Isomo Academy" class="partner-logo">
+          <img src="b2r.jfif" alt="Bridge2Rwanda" class="partner-logo">
+          <img src="sbf.jpg" alt="The Street Bridge Foundation" class="partner-logo">
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="py-4">
+    <div class="container text-center">
+      <p>&copy; 2024 WIN Hackathon. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

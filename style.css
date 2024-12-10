@@ -1,0 +1,298 @@
+/* Global Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #ec3750;
+}
+
+/* Header and Hero Section Styles */
+.page-header {
+  background-color: #343a40;
+  color: white;
+  padding: 50px 0;
+}
+
+.page-header h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+
+/* Hero Section */
+#hero {
+  background-image: url('1_mNNJdFK1WF-Rqvexg7R3Vw.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+#hero h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#hero p {
+  font-size: 1.25rem;
+  margin-top: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  letter-spacing: 1px;
+  font-style: italic;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* About Section */
+#about {
+  background-color: white;
+  padding: 50px 0;
+  text-align: center;
+}
+
+#about h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: #ec3750;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+#about p {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: #333;
+  margin: 0 auto;
+  max-width: 800px;
+  font-weight: 400;
+}
+
+/* Partners Section */
+#partners {
+  padding: 50px 0;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+#partners h2 {
+  font-size: 2.5rem;
+  color: #ec3750;
+  margin-bottom: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.partners-marquee {
+  width: 100%;
+  overflow: hidden;
+  background-color: #f4f4f4;
+}
+
+.partner-logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  animation: scroll-left 20s linear infinite;
+}
+
+.partner-logo {
+  width: 120px;
+  height: auto;
+  object-fit: contain;
+  margin: 0 30px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.partner-logo:hover {
+  transform: scale(1.1);
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Prizes Section */
+#prizes {
+  background-color: white;
+  padding: 50px 0;
+}
+
+#prizes h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#prizes .fa-trophy, #prizes .fa-medal, #prizes .fa-certificate {
+  color: #f39c12;
+  margin-bottom: 15px;
+}
+
+#prizes h4 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+#prizes p {
+  font-size: 1.125rem;
+}
+
+/* FAQ Section */
+#faq {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+#faq h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#faq .card-header {
+  background-color: #343a40;
+  color: white;
+}
+
+#faq .btn-link {
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+#faq .card-body {
+  font-size: 1.125rem;
+  color: #333;
+}
+
+/* Footer Section */
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 2.5rem;
+  }
+
+  #hero p {
+    font-size: 1rem;
+  }
+
+  .logo {
+    width: 120px;
+  }
+
+  #schedule ul li {
+    font-size: 1rem;
+  }
+
+  #prizes h4 {
+    font-size: 1.125rem;
+  }
+
+  #prizes p {
+    font-size: 1rem;
+  }
+
+  #faq .btn-link {
+    font-size: 1rem;
+  }
+
+  footer p {
+    font-size: 0.875rem;
+  }
+}
+
+/* Partners Section */
+#partners {
+  padding: 50px 0;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+#partners h2 {
+  font-size: 2.5rem;
+  color: #ec3750;
+  margin-bottom: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* Marquee for Partners */
+.partners-marquee {
+  width: 100%;
+  overflow: hidden;  /* Ensures the logos outside of the screen are hidden */
+  background-color: #f4f4f4;
+}
+
+.partner-logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  animation: slide 30s linear infinite; /* Continuous animation */
+}
+
+.partner-logo {
+  width: 120px;
+  height: auto;
+  object-fit: contain;
+  margin: 0 30px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.partner-logo:hover {
+  transform: scale(1.1);
+}
+
+/* Animation to slide logos across the screen */
+@keyframes slide {
+  0% {
+    transform: translateX(100%);  /* Start from right side of the screen */
+  }
+  100% {
+    transform: translateX(-100%); /* End at the left side of the screen */
+  }
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+  .partner-logo {
+    width: 100px; /* Smaller logo size for mobile */
+    height: auto;
+  }
+
+  .partner-logos {
+    animation: slide 30s linear infinite; /* Speed up animation on smaller screens */
+  }
+}
