@@ -296,3 +296,13 @@ footer p {
     animation: slide 30s linear infinite; /* Speed up animation on smaller screens */
   }
 }
+.hero-logo {
+  width: 200px; /* Increase the size */
+  height: 200px; /* Ensure it's square */
+  object-fit: cover; /* Ensure the image fills the square */
+  border: 5px solid #38a169; /* Add a decorative border coat */
+  border-radius: 10px; /* Slight rounding for elegance */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  background-color: white; /* Optional: Background coat */
+}
+
